@@ -14,6 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+Route::middleware('api')->group(function () {
+    Route::get('/users', 'UsersController@index');
+    Route::post('/users', 'UsersController@create');
+    Route::get('/users/{id}', 'UsersController@show');
+
+    Route::get('/cep/{cep}', 'CepController@show');
+
+    Route::get('/channels', 'ChannelUserMessageController@index');
+});
+
+
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
