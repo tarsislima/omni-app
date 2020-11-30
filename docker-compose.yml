@@ -1,0 +1,34 @@
+version: '3.5'
+
+networks:
+  backend:
+    driver: bridge
+
+services:
+  omni-bemol:
+    container_name: 'omni-bemol'
+    image: webdevops/php-nginx-dev:alpine-php7
+    env_file: .env
+    environment:
+      - WEB_DOCUMENT_ROOT=/app/public
+    working_dir: /app
+    volumes:
+      - "./:/app/"
+    ports:
+      - "80:80"
+    networks:
+      - backend
+    links:
+      - mariadb
+    depends_on:
+      - mariadb
+  mariadb:
+    image: mariadb:10.3
+    command: mysqld --innodb-buffer-pool-size=100M
+    environment:
+      MYSQL_DATABASE: omni-bemol
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+    networks:
+      - backend
