@@ -5,6 +5,9 @@
 Projeto de exemplo aplicação de cadastro de usuário em multi-canais de atendimento
 
 ## Screenshots
+![Screen 1](https://github.com/tarsislima/omni-app/blob/master/screen-1.jpg)
+
+![Screen 2](https://github.com/tarsislima/omni-app/blob/master/screen-2.jpg)
 
 ## Pré Requisitos
 
@@ -59,9 +62,7 @@ php artisan db:seed
 ## Questões
 
 Se encontram no arquivo questoes.txt neste repositório
-
+[questoes.txt](![C4 Model](https://github.com/tarsislima/omni-app/blob/master/questoes.txt))
 ## Modelo C4
 
-```
-arquivo c4model.jpg
-```
+![C4 Model](https://github.com/tarsislima/omni-app/blob/master/c4model.jpg)

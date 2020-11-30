@@ -1,4 +1,5 @@
-A solução deve ser disponibilizada em Cloud ou On-premise?
+1. A solução deve ser disponibilizada em Cloud ou On-premise?
+
 R = Como escalabilidade é um pré-requisito uma solução Cloud é a mais recomendada,
 permitindo escalar dinâmicamente de acordo com a demanda e reduzindo custos que seriam necessários para manter uma solução On-Premise,
 tanto de pessoal quanto de infraestrutura.
@@ -6,11 +7,12 @@ tanto de pessoal quanto de infraestrutura.
 2. Considerando a participação de 4 pessoas técnicas para o desenvolvimento dessa
 solução, responda qual ferramenta acreditas ser apropriada para o controle de
 tarefas da equipe, a ferramenta é ágil?
+
 R = O sistema de issues do controle de versão associado a alguma ferramenta que permita a utilização do Kambam,
 como o Trello, ou o próprio sistema de issues do Gitlab que possui um modo de visualização em boards.
 
 3. Você se sente capaz de liderar esta equipe? Por quê?
 
- Se for como lider técnico sim, pois de certa forma tenho feito esse papel na empresa em que estou trabalhando no momento.
+R =  Se for como lider técnico sim, pois de certa forma tenho feito esse papel na empresa em que estou trabalhando no momento.
  Porém se for como gestor, não sinto que tenho a capacitação necessária no momento.
 s
