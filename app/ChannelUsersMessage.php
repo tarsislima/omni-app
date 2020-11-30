@@ -16,7 +16,7 @@ class ChannelUsersMessage extends Model
 
     public function getCreatedAtAttribute()
     {
-        return date('d/m/Y', strtotime($this->attributes['created_at']));
+        return date('d/m/Y H:i', strtotime($this->attributes['created_at']));
     }
 
 }
