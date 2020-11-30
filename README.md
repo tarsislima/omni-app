@@ -5,9 +5,9 @@
 Projeto de exemplo aplicação de cadastro de usuário em multi-canais de atendimento
 
 ## Screenshots
-![Screen 1](https://github.com/tarsislima/omni-app/blob/master/screen-1.jpg)
+![Screen 1](https://github.com/tarsislima/omni-app/blob/master/screen-1.png)
 
-![Screen 2](https://github.com/tarsislima/omni-app/blob/master/screen-2.jpg)
+![Screen 2](https://github.com/tarsislima/omni-app/blob/master/screen-2.png)
 
 ## Pré Requisitos
 
