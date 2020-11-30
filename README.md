@@ -68,3 +68,6 @@ Se encontram no arquivo
 ## Modelo C4
 
 ![C4 Model](https://github.com/tarsislima/omni-app/blob/master/c4model.jpg)
+
+Camadas da aplicação
+![C4 Model - camadas](https://github.com/tarsislima/omni-app/blob/master/c4model-camadas.jpg)
