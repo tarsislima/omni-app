@@ -6,7 +6,6 @@ Projeto de exemplo aplicação de cadastro de usuário em multi-canais de atendi
 
 ## Screenshots
 
-
 ## Pré Requisitos
 
 - Linux
@@ -57,3 +56,12 @@ php artisan migrate
 php artisan db:seed
 ```
 
+## Questões
+
+Se encontram no arquivo questoes.txt neste repositório
+
+## Modelo C4
+
+```
+arquivo c4model.jpg
+```
